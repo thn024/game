@@ -15,6 +15,8 @@
 #define IDC_TUTORIAL1           109
 #define IDC_MYICON              2
 #define IDC_STATIC              -1
+#define SHADER_NAME				L"shader.fx"		//name of the shader, casted to a WCHAR *
+
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
