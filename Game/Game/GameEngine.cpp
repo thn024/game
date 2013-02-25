@@ -11,6 +11,8 @@
 #include <d3dcompiler.h>
 #include <xnamath.h>
 #include "resource.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 
 //--------------------------------------------------------------------------------------
@@ -67,6 +69,7 @@ int WINAPI wWinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdL
         return 0;
     }
 
+	printf("asdf");
     // Main message loop
     MSG msg = {0};
     while( WM_QUIT != msg.message )
