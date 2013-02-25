@@ -1,0 +1,3 @@
+# git ignore file
+git rm -r -f Debug
+git rm -r -f Release
