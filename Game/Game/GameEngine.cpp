@@ -69,7 +69,6 @@ int WINAPI wWinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdL
         return 0;
     }
 
-	printf("asdf");
     // Main message loop
     MSG msg = {0};
     while( WM_QUIT != msg.message )
